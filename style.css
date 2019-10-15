@@ -1,0 +1,111 @@
+html{
+    background: linear-gradient(to top left, rgb(148, 69, 194), rgb(93, 179, 219));
+    height: 100%;
+    outline: none;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    border: none;
+    text-align: center;
+}
+
+.calculator{
+    width: 45%;
+    height: 36em;
+    margin: 3% auto;
+    background-color: grey;
+    border-radius: 12px;
+    font-family: "Pakenham";
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 0.8em 0.8em 5px rgba(122,122,122,0.7);
+}
+
+.input-field{
+    width: 90%;
+    height: 20%;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+
+.input-text{
+    width: 100%;
+    text-align:center;
+    font-size: 4em;
+    font-family: "Pakenham";
+    font-weight: bold;
+    font-style: italic;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.main-buttons{
+    width: 100%;
+    height: 5em;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.stroke{
+    width: 100%;
+    height: 5em;
+    text-align: center;
+   padding-top: 0.5em;
+}
+
+.main{
+    width: 24%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 2px;
+    font-size: 4em;
+    font-family: "Pakenham";
+}
+
+@font-face {
+    font-family: "Pakenham"; 
+    src: url("Pakenham.ttf") format("truetype"); 
+    font-weight: bold;
+    font-style: italic;
+} 
+
+.main:hover{
+    background-color: rgb(187, 184, 184);
+}
+
+.red{
+    background-color: rgb(255, 96, 96);
+}
+
+.red:hover{
+    background-color: red;
+}
+
+.yellow{
+    background-color: rgb(247, 247, 94);
+}
+
+.yellow:hover{
+    background-color: yellow;
+}
+
+.action{
+    background-color: rgb(204, 130, 204);
+}
+
+.action:hover{
+    background-color: rgb(212, 63, 212);
+}
+
+.green{
+    background-color: rgb(44, 143, 44);
+}
+
+.green:hover{
+    background-color: green;
+}
